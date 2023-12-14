@@ -1,0 +1,86 @@
+/* Login box styles */
+body
+{
+    background-image: url(../images/proimg1.jpeg);
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 1450px 700px;
+
+
+}
+
+.login-box {
+    width: 320px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.615);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.login-bg{
+background-color: #2574a9;  
+}
+
+
+
+.login-box h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 24px;
+    /* color: #333; */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    /* color: #555; */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 16px);
+    padding: 12px;
+    border-radius: 6px;
+    /* border: 1px solid #ccc; */
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #3498db;
+    /* color: #fff; */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2574a9; /* Darker shade on hover */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
